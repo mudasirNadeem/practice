@@ -1,0 +1,19 @@
+ul{
+    border: red solid 2px;
+    text-decoration: none;
+height: 60px;
+}
+ul li{
+    border: black solid 2px;
+
+font-size: 60px;
+    display: inline;
+    cursor:copy;
+border: non;
+border: none;
+border-right: black  solid 2px;
+}
+li :focus{
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+border-radius: 50px;
+}

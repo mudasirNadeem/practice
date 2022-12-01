@@ -1,0 +1,79 @@
+body{
+    background: -webkit-linear-gradient(left,#a445b2, #fa4299);
+}
+.container{
+
+border: black solid 2px;
+
+width: 400px;
+height: 400px;
+background-color: white;
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+}
+.btn-box {
+   border: #666666 solid 2px;
+   width: 300px;
+   height: 40px;
+   display: flex;
+   margin-left: 50px;
+   border-radius: 12px 2px  2px 12px;
+}
+.login{
+    background: -webkit-linear-gradient(left,#a445b2, #fa4299);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+cursor: pointer;
+}
+.signup{
+    width: 150px;
+    height: 40px;
+    color: black;
+    border: none;
+    outline: none; 
+background-color: white;
+cursor: pointer;
+}
+.email{
+width: 295px;
+height: 30px;
+border: none solid 2px;
+outline: none;
+
+}
+.password{
+
+width: 295px;
+height: 30px;
+border: none solid 2px;
+outline: none;
+}
+
+.icon{
+color: #fa4299;
+cursor: pointer;
+margin-right: 180px;
+}
+.submit{
+     background: -webkit-linear-gradient(left,#a445b2, #fa4299);
+width: 300px;
+height: 40px;
+border-radius: 3px;
+color: white;
+border: none ;
+outline: none;
+cursor: pointer;
+}
+span{
+color: #fa4299;
+}
+form{
+text-align: center;
+}

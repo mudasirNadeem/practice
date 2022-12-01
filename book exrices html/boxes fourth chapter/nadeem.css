@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(1000deg, #56d8e4 10%, #9f01ea 90%);
+
+}
+.nadeem{
+width: 300px;
+height: 400px;
+}
+.main{
+    display: flex;
+}
+
+.form{
+
+    width: 230px;
+    
+    height: 25px;
+    
+    background-color: lightblue;
+    
+    border: none;
+    
+    border-bottom: #2596be solid 2px;
+    
+    outline: none;
+    
+    color: white;
+    
+    border-radius: 10px;
+    
+    box-shadow: #888888 2px 2px 3px ;
+    
+    position: relative;
+    
+    left: 20%;
+    
+    top: 2%;
+    
+    }
+    
+    .submit{
+    
+    width: 300px;
+    
+    background: linear-gradient(100deg, #56d8e4 20%, #9f01ea 90%);
+    
+    border: none;
+    
+    outline: none;
+    
+    height: 35px;
+    
+    border-radius: 10px;
+    
+    color: white;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    box-shadow: #888888 2px 2px 3px ;
+    
+    position: relative;
+    
+    left: 10%;
+    
+    top: 5%;
+    
+    cursor: pointer;
+    
+    }
+    

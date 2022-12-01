@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+}
+
+.two,
+.three {
+    margin-left: 20px;
+}
+
+.five,
+.eaight,
+.nine,
+.eleven,
+.fourteen,
+.tweel {
+    margin-left: 30px;
+}
+
+.six {
+    margin-left: 20px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+}
+
+.container4 {
+    display: flex;
+}
+
+.container5 {
+    display: flex;
+}
+
+div {
+    /* margin-left: 20px; */
+}
+
+.ok {
+    width: 175px;
+    height: 180px;
+    background-color: orange;
+    display: flex;
+    margin-left: 30px;
+}

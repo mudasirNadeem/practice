@@ -1,0 +1,57 @@
+.container{
+    background-color: gray;
+  
+}
+li{
+border-right: black solid 1px;
+display: inline;
+font-size: 50px;
+color: black;
+height: 40px;
+transition: 5s;
+}
+a{
+    color: #000;
+    border-bottom: none;
+}
+.register{
+float: right;
+background-color: white;
+width: 300px;
+height: 30px;
+position: fixed;
+  top: 7%;
+  left: 88%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  transition: 5s;
+
+}
+.pak{
+font-size: 50px;
+border: none;
+
+}
+.container2{
+display: flex;
+}
+article{
+background-color: yellow;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+width: 250px;
+margin-top: 50px;
+}
+.container3{
+    background-color: yellow;
+    position: fixed;
+      top: 50%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+    width: 250px;
+    margin-top: 50px;
+}

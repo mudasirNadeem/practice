@@ -1,0 +1,1379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container{
+    width: 100%;
+    height: 100%;
+    }
+    
+    nav ul li{
+        list-style: none;
+        display: table;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    nav  ul li a{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 30px 20px 30px 20px;
+        text-decoration: none;
+    }
+    nav  ul li a:hover{
+        background-color: #04aa6d;
+        color: white;
+    }
+    .align-left{
+        text-align: left;
+    }
+    img[alt="w3schhool-logo"]{
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    .align-right{
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    label[for="check"]{
+    font-weight: 800;
+    font-size: 17px;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    .Tutorials-container{
+        background-color: red ;
+        z-index: 1000;
+        width: 100%;
+        height: 100vh;
+        margin-top: 3px;
+        display: none;
+    }
+    #check:checked ~ .Tutorials-container{
+        display: block;
+    }
+    #check:checked ~ label[for="check"] i{
+        transform: rotate(-180deg);
+        transition:  .5s ease-in-out ;
+    }
+    label[for="check"]  {
+position: absolute;
+left: 90px;
+top: -5px;
+padding: 30px 10px;
+letter-spacing: 1px;
+user-select: none;
+cursor: pointer;
+    }
+    label[for="check"]:hover{
+        background-color: #04aa6d;
+        color: white;
+
+    }
+    label[for="click"]{
+        position: absolute;
+       left: 210px;
+       top: -5px;
+       padding: 30px 10px;
+       font-weight: 600;
+       letter-spacing: 1px;
+       user-select: none;
+       cursor: pointer;
+    }
+    label[for="click"]:hover{
+        background-color: #04aa6d;
+        color: white;
+        
+    }
+    
+    label[for="clickevents"]{
+        position: absolute;
+       left: 350px;
+       top: -5px;
+padding: 30px 10px;
+font-weight: 600;
+letter-spacing: 1px;
+user-select: none;
+cursor: pointer;
+    }
+    label[for="clickevents"]:hover{
+        background-color: #04aa6d;
+        color: white;
+
+    }
+    label[for="videos"]{
+        position: absolute;
+        top: 1px;
+        left: 480px;
+        padding: 30px 10px;
+        user-select: none;
+        cursor: pointer;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    label[for="videos"]:hover{
+        background-color: #04aa6d;
+        color: white;
+    }
+    .References-container{
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+        background-color: black;
+        display: none;
+        margin-top: 3px;
+
+    }
+    #click:checked ~ .References-container{
+        display: block;
+    }
+    #click:checked ~ label[for="click"] i{
+        transform: rotate(-180deg);
+        transition:  .5s ease-in-out ;
+    }
+    .Exercises-and-Quizzes{
+        width: 100%;
+        height: 100vh;
+        background-color: yellow;
+        z-index: 1000;
+        display: none;
+        margin-top: 3px;
+
+    }
+    #clickevents:checked ~ .Exercises-and-Quizzes{
+        display: block;
+    }
+    #clickevents:checked ~ label[for="clickevents"] i{
+        transform: rotate(-180deg);
+        transition:  .5s ease-in-out ;
+    }
+    .submit{
+        width: 125px;
+        height: 45px;
+        background-color: #04aa6d;
+        border: none;
+        border-radius: 50px;
+        margin-right: 25px;
+        color: white;
+        font-weight: 600;
+        margin-top: 15px;
+        cursor: pointer;
+
+    }
+    .freewebsite{
+        background-color: #fff080;
+        width: 150px;
+        height: 45px;
+        border-radius: 50px;
+        color: black;
+        font-weight: 550;
+        margin-top: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+    }
+    .GEt-Certified{
+        width: 130px;
+        height: 45px;
+        border-radius: 50px;
+        color: black;
+        font-weight: 550;
+        margin-top: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+    border: none;
+     background-color: #ffc0c7;   
+     cursor: pointer;
+
+    }
+    .upgrade{
+        width: 100px;
+        height: 45px;
+        border-radius: 50px;
+        color: black;
+        font-weight: 550;
+        margin-top: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+    border: none;
+     background-color: black;  
+     color: white;
+     cursor: pointer;
+
+    }
+    .search{
+        margin-right: 20px;
+        margin-top: 25px;
+        cursor: pointer;
+
+    }
+    .search:hover{
+        color: #04aa6d;
+    }
+    .world-icon{
+        margin-right: 20px;
+        margin-top: 25px;
+        cursor: pointer;
+
+    }
+    .world-icon:hover{
+        color: #04aa6d;
+
+    }
+    .cloud{
+        margin-right: 20px;
+        margin-top: 25px; 
+        cursor: pointer;
+
+    }
+    .cloud:hover{
+        color: #04aa6d;
+
+    }
+.wrapping{
+    width: 100%;
+    height: 100%;
+    margin-top: 3px;
+}
+.bg-black{
+    background-color: #282a35;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.bg-black h1{
+font-size: 60px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.bg-black h2{
+    color: #ffc0c7;
+}
+.input{
+    width: 450px;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-left: 10px;
+    outline: none;
+}
+.search-btn{
+width: 80px;
+background-color: #04aa6d;
+border-top-right-radius: 30px ;
+border-bottom-right-radius: 30px ;
+height: 49px;
+position: relative;
+top: 5px;
+right: 10px;
+border: none;
+cursor: pointer;
+}
+a[href="sure"]{
+    font-size: 20px;
+    color: white;
+}
+a[href="sure"]:hover{
+    color: #04aa6d;
+}
+.bg-gray{
+    width: 100%;
+    height: 70vh;
+    background-color: #d9eee1;
+    /* position: relative;
+    top: -5px; */
+}
+.bg-gray > div{
+    display: flex;
+}
+.flex{
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.other-flex{
+    flex: 50%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.flex h1{
+    font-size: 90px;
+}
+.flex p{
+    font-size: 20px;
+}
+input[value="Learn HTML"]{
+background-color: #04aa6d;
+width: 180px;
+height: 40px;
+border-radius: 50px;
+border: none;
+outline: none;
+color: white;
+font-size: 18px;
+cursor: pointer;
+
+}
+input[value="Video Tutorials"]{
+    background-color:#fff080;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px; 
+    cursor: pointer;
+}
+input[value="HTML Reference"]{
+    background-color:#282a35;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px; 
+    cursor: pointer;
+}
+input[value="Get-Certified"]{
+    background-color:#ffc0c7;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px; 
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+   border-left: #04aa6d solid 6px;
+   outline: none;
+}
+.box-shadow-box{
+    box-shadow: 0px 0px 10px #777777;
+    height: 65vh;
+    width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.box-shadow-box h1{
+    position: relative;
+    left: -220px;
+}
+input[value="Try it yourself"]{
+    background-color: #04aa6d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 200px;
+    cursor: pointer;
+    border: none;
+}
+.css-container{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff080;
+    position: relative;
+    top: -5px;
+}
+
+.bg-yellow-box-sub{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.bg-yellow-50{
+    width: 50%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.bg-yellow-other50{
+    height: 80vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.bg-yellow-50 h1{
+    font-size: 90px;
+}
+.bg-yellow-50 p{
+    font-size: 20px;
+}
+input[value="Learn CSS"]{
+    background-color:#04aa6d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+}
+input[value="CSS Reference"]{
+    background-color:#282a35;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[value="Get Certified"]{
+    background-color:#ffc0c7;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.text-box{
+    width: 90%;
+    height: 85%;
+    background-color: #d9eee1;
+    box-shadow: 0 0 10px #777777;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.text-box h1{
+    position: relative;
+    right: 200px;
+}
+input[value="Try it  yourself"]{
+    background-color: #04aa6d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 200px;
+    cursor: pointer;
+    border: none;
+}
+.javscript-container{
+    width: 100%;
+    height: 65vh;
+    background-color:#282a35;
+    position: relative;
+    top: -5px;
+    color: white;
+}
+.sub-javascript-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+} 
+.middle{
+    flex: 50%;
+ height: 500px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.middle h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.middle p{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.middle2{
+    flex: 50%;
+ align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+height: 70vh;
+}
+input[value="Learn JavaScript"]{
+    background-color:#04aa6d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+input[value=" JavaScript Reference"]{
+    background-color:#ffffff;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+}
+.script{
+    width: 90%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+ background-color: aliceblue;
+ box-shadow: 0 0 10px #777777;
+} 
+.script h1{
+    color: black;
+    position: relative;
+    right: 200px;
+}
+.Python-container{
+    width: 100%;
+    height: 70vh;
+    background-color: #f3ecea;
+    position: relative;
+    top: -5px;
+}
+.sub-python-container{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+.order{
+    flex: 50%;
+    height: 70vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.order p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.middle-order{
+    flex: 50%;
+    height: 70vh;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+input[value="Learn python"]{
+    background-color:#04aa6d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+input[value="Learn Reference"]{
+    background-color:#282a35;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+.order input[value="Get-Certified"]{
+    width: 200px;
+    height: 40px;
+}
+.conform{
+    width: 90%;
+    height: 60vh;
+    background-color: aliceblue;
+    box-shadow: 0  0 10px #777777;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.conform h1 {
+position: relative;
+right: 220px;
+}
+.sql-container{
+    width: 100%;
+    height: 70vh;
+    background-color: #96d4d4;
+    position: relative;
+    top: -5px;
+}
+.sub-sql-container{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.data-basses{
+    flex: 50%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.data-basses h1{
+    font-size: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.data-basses p{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+input[value="Learn SQL"]{
+    background-color:#04aa6d;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+input[value="SQL Reference"]{
+    background-color:#282a35;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+
+.texterea-container{
+    flex: 50%;
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texterea{
+    width: 90%;
+    height: 60vh;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px #777777;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texterea h1{
+    position: relative;
+    right: 200px;
+} 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: #282a35;
+    padding: 10px;
+    height: 100%;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    grid-row-gap: 10vh;
+    position: relative;
+    top: -5px;
+  }
+  .grid-container button{
+    cursor: pointer;
+  }
+  .PHP{
+    width: 600px;
+    background-color: #ffc0c7;
+    padding: 50px;
+    border-radius: 20px;
+    
+  }
+  .PHP h1{
+    color: black;
+    font-size: 54px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .PHP p{
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  .PHP button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+  
+  }
+.JQuery{
+    width: 600px;
+    background-color: #fcf4a4;
+    border-radius: 20px;
+    padding: 50px;
+
+}
+.JQuery h1{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.JQuery p{
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.JQuery button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.java{
+    width: 600px;
+    background-color: #f3ecea;
+    border-radius: 20px;
+    padding: 50px;
+}
+.java h1{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.java p{
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;  
+}
+.java button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.programming{
+    width: 600px;
+    background-color: #f3ecea;
+    border-radius: 20px;
+    padding: 50px;
+}
+.programming h1{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.programming p{
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;  
+}
+.programming button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.W3css{
+    background-color: #96d4d4;
+    width: 600px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.W3css h1{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.W3css p {
+color: black;
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;  
+}
+.W3css button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.bootstrap{
+    background-color: #e7e9eb;
+    width: 600px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.bootstrap h1{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bootstrap p{
+    color: black;
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;  
+}
+.bootstrap button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.c{
+    background-color: #e9b1b8;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.c h1{
+text-align: center;
+font-size: 32px;
+}
+.cc{
+    background-color: #e9df98;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cc h1{
+    text-align: center;
+font-size: 32px;
+
+}
+.grid-templete{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #282a35;
+    padding: 10px;
+    height: 100%;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    grid-row-gap: 7vh;
+    position: relative;
+    top: -5px;
+    
+}
+.grid-templete button{
+    font-weight: bold;
+    cursor: pointer;
+}
+.R{
+    width: 260px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Kotlin{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Node{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.React{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.XML{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #8bc3c4;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.MYSQUL{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#c7dacf;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.JSON{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#fff4a3;
+    border-radius: 20px;
+    font-size: 25px;  
+}
+.Angular{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+.Graphics{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#c7dacf;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.RWD{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Icon{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#fff4a3;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Sass{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#e9b1b8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Cyber{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Raspberry{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#e9df98;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Canvas{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#e9b1b8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.SVG{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #8bc3c4;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.NumPy{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#e9df98;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Matplotlib{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#e9b1b8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Git{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #8bc3c4;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Colors{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Accessibility{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #e9b1b8;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.ASP{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #8bc3c4;
+    border-radius: 20px;
+    font-size: 25px;  
+}
+.SciPY{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #c7dacf;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.Pandas{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #ded8d8;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.DJango{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#8bc3c4;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.TypeScript{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#c7dacf;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.GO{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#ded8d8;
+    border-radius: 20px;
+    font-size: 25px;  
+}
+.APPML{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#fff4a3;
+    border-radius: 20px;
+    font-size: 25px;  
+}
+.Typing {
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #c7dacf;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.Data {
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #f3ecea;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.Statistics{
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color: #fff4a3;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.MonogoDB {
+    width: 270px;
+    border: none;
+    padding: 45px;
+    background-color:#e9b1b8 ;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+.Excel-btn{
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: #282a35;
+    padding: 10px;
+    height: 100%;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    grid-row-gap: 10vh;
+    position: relative;
+    top: -5px;
+}
+.Excel{
+    font-weight: bold;
+    font-size: 20px;
+    width: 650px;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #8bc3c4;
+    font-size: 25px;
+}
+.Goggle{
+    font-weight: bold;
+    font-size: 20px;
+    width: 650px;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #e9df98;
+    font-size: 25px;
+}
+.Machine{
+    font-weight: bold;
+    font-size: 20px;
+    width: 650px;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #e9b1b8;
+    font-size: 25px;
+}
+.Artificial{
+    font-weight: bold;
+    font-size: 20px;
+    width: 650px;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #ded8d8;
+    font-size: 25px;
+}
+.vedio-container{
+    background-color: #282a35;
+    padding: 10px;
+    height: 100%;
+    position: relative;
+    top: -5px;
+    color: white;
+}
+.vedio-container h1{
+    font-size: 54px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.vedio-container .paragraphs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.vedio-container .try-btn{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    background-color: #04aa6d;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    right: 320px;
+}
+.vedio-container  button{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff4a3;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    right: 270px; 
+}
+.image-container{
+    background-color: #282a35;
+    padding: 10px;
+    height: 100%;
+    position: relative;
+    top: -5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-container h1{
+    text-align: center;
+    font-size: 54px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image-container p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Code-image{
+    width: 1000px;
+    height: 600px;
+}
+input[value="Get Strted for Free"]{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bg-gray2{
+    background-color: #d9eee1;
+    width: 100%;
+    height: 100%;
+}
+.bg-gray2 h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;
+text-align: center;
+}
+.bg-gray2 p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: black;
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.bg-gray2 p span{
+    font-weight: 600;
+}
+img[alt="new-image"]{
+    height: 600px;
+}
+.bg-gray2 p button{
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 330px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+.list-style h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-size: 30px;
+  color: #ffc0c7;
+}

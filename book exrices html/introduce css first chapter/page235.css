@@ -1,0 +1,18 @@
+p{
+
+color: red;
+
+}
+
+.container{
+    font-family: arail;
+
+    background-color: rgb(185,179,175);
+    
+    width: 400px;
+    
+    border: solid red 2px;
+}
+h1{
+color: rgb(255, 255, 255);
+}

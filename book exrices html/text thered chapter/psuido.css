@@ -1,0 +1,98 @@
+.container :first-child{
+    color: red;
+}
+.container :last-child{
+color: yellow;
+}                                                                                                                    .container2 :nth-child(3n){
+color: red;
+border: black solid 4px;
+}   
+.container2 :nth-last-child(1){
+color: blue; 
+}             
+.p :nth-of-type(2){
+color: rgb(100, 192, 222);
+}             
+.container3 :only-child {
+color: blue;
+}
+.container3 :only-of-type{
+    background-color: black;
+}
+.container4 :first-of-type{
+    border: black solid 1px;
+}
+.container4 :last-of-type{
+border: red solid 1px;
+}
+div :empty{
+border: red solid 20px;
+}
+.container2 :not(.taste){
+background-color: rgba(28, 17, 24, 0.317);
+}
+.container5 :lang(us){
+color: red;
+}
+ul li a {
+color: red;
+}
+ul li a :visited{
+    color: forestgreen;
+}
+ul li :active{
+    color:springgreen;
+}
+ p:target{
+    background-color: yellow;
+}
+input:focus{
+border: red solid 10px;
+}
+input[type='checkbox']:checked {
+box-shadow: 0 0 0 3px red;
+} 
+input[type="radio"]:checked + label{
+color: red;
+}
+
+input:enabled{
+    border: blue solid 1px;
+}
+input:disabled{
+    border: yellow solid 20px ;
+}
+input:required{
+    background-color: rgb(127, 255, 212);
+
+}
+input:in-range{
+border: green solid 2px;
+background-color: wheat;
+}
+input:out-of-range{
+    border: red solid 2px;
+    background: pink;
+}
+input:read-only{
+    border: lime solid 2px;
+    background: yellowgreen;
+}
+.c:read-write{
+background-color: black;
+color: white;
+/* by deafult value */
+}
+.pak{
+    background-color: red;
+    color: white;
+
+}
+.pak:valid{
+    background-color: white;
+    color: yellow;
+}
+.pak:invalid{
+background-color: pink;
+color: gray;
+}

@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+
+    float: left;
+
+    border: red solid 3px;
+
+    width: 400px;
+    
+    height: 40px;
+
+    /* text-align: center; */
+
+    justify-content: center;
+
+    font-size: 30px;
+
+    color: black;
+
+/* text-decoration: none;/# */
+
+}
+
+#Home{
+
+padding-left: 20px;
+
+/* background-color: brown; */
+
+text-decoration: none;
+
+background-color: brown;
+
+}
+
+.container :focus{
+
+    justify-content: center;
+
+    background-color: brown;
+ 
+    width: 100px;
+    
+    color: white;
+
+    text-decoration: none;
+
+}
+
+#b:target{
+
+    background-color: black;
+    
+    color: red;
+}

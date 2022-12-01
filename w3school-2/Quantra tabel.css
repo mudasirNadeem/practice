@@ -1,0 +1,164 @@
+body{
+background-color: #f7f7f7;
+}
+.container{
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+button{
+    background-color: #1a95a5;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 80px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.algn-right{
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.algn-right input {
+    width: 180px;
+    height: 50px;
+    padding-left:40px ;
+    border: none;
+    outline: none;
+    background: url(Search.png) no-repeat left;
+    background-size: 40px;
+}
+.text{
+    background-color: #f0f0f0 !important;
+
+}
+.text:focus{
+    border-bottom: #1a95a5 solid 2px;
+}
+.table-box{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom:#787e81 solid .50px ;
+}
+table{
+    padding: 10px;
+}
+td{
+    padding-left: 100px;
+    text-align: center;
+
+}
+th{
+    font-weight: normal;
+    color: #1a95a5;
+}
+.show{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.text-right{
+    text-align: right;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    background-color: #1a95a5;
+    position: relative;
+    top: 8px;
+    right: 30px;
+}
+img[src="download-removebg-preview__2_-removebg-preview.png"]{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 16px;
+    right: 20px;
+
+}
+img[src="download-removebg-preview (2).png"]{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 12px;
+    right: 20px;
+
+}
+img[src="music_backword-removebg-preview.png"]{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 8px;
+    right: 20px;
+}
+img[Src="forword-removebg-preview.png"]{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 7px;
+    right: 20px;
+}
+.m-top{
+    margin-top: 20px; 
+    position: relative;
+    top: 15px;
+}
+
+a[href="Clint.html"]{
+    background-color:#cccccc;
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   position: relative;
+   left: -10px;
+}
+a[href="Client"]{
+    position: relative;
+    left: 80px;
+    top: -28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.p-right{
+    position: relative;
+    right: 50px;
+    top: 5px;
+}
+@media screen  and (max-width:1200px){
+    .container{
+        width: 100%;
+    }
+}

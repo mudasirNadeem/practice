@@ -1,0 +1,22 @@
+.text{
+    margin-left: 50px;
+}
+textarea{
+    margin-left: 113px;
+}
+select{
+    margin-left: 40px;
+}
+.radio{
+    margin-left: 20px;
+}
+.check{
+    margin-left: 107px;
+}
+.submit{
+  border-radius: 20px;  
+  width: 60px;
+  /* border: none; */
+  outline: none;
+  background-color: lightgray;
+}

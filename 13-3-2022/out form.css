@@ -1,0 +1,58 @@
+.containter{
+background-color: white;
+
+ position:absolute; 
+top:20%;
+left:40%;
+/* transform:translate(-50%,-50%); */
+box-shadow: 0px 0px 0px 4px white
+;
+}
+
+.icon{
+width: 250px;
+height: 35px;
+margin: 20px;
+padding-left: 50px;
+background: url(mean.png)
+no-repeat left;
+border-radius: 5px;
+}
+.login{
+background-color: green;
+width: 250px;
+height: 70px;
+color: white;
+font-size: 30px;
+padding-left: 100px;
+padding-top: 25px;
+/* padding-bottom: 100px; */
+}
+.password{
+width: 250px;
+height: 35px;
+margin-left: 21px;
+padding-left: 50px;
+background: url(password.png)
+no-repeat left;
+border-radius: 5px;
+}
+.for{
+color: green;
+font-size: 20px;
+margin-left: 22px;
+}
+.submit{
+background-color: green;
+width: 300px;
+height: 40px;
+margin-left: 22px;
+color:white;
+font-size: 20px;
+border: none;
+border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    margin-left: 50px;
+}

@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+}
+.one{
+    margin-left: 10px;
+}
+.two{
+    margin-left: 25px;
+}
+.three{
+    margin-left: 25px;
+}
+.container2{
+    display: flex;
+}
+.four{
+    margin-left: 10px;
+}
+.five{
+    margin-left: 33px;
+}
+.six{
+    margin-left: 30px;
+}
+.container3{
+    display: flex;
+}
+.seven{
+    margin-left: 10px;
+}
+.eaight{
+    margin-left: 35px;
+}
+.nine{
+    margin-left: 33px;
+}
+.container4{
+    display: flex;
+}
+.ten{
+    margin-left: 10px;
+
+}
+.eleven{
+    margin-left: 35px;
+}
+.tweel{
+    margin-left: 35px;
+}
+.container5{
+    display: flex;
+}
+.threeteen{
+    margin-left: 10px;
+}
+.fourteen{
+    margin-left: 35px;
+}

@@ -1,0 +1,163 @@
+body{
+
+    background: linear-gradient(100deg, #56d8e4 20%, #9f01ea 90%);
+
+}
+
+.contianer{
+
+    background-color: yellow;
+
+    width: 1000px;
+
+    height: 600px;
+
+    box-shadow: 3px 50px 50px #888888;
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+    /* bring your own prefixes */
+
+    transform: translate(-50%, -50%);
+
+}
+
+.container1{
+
+    background-color: black;
+
+    width: 800px;
+
+    height: 500px;
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+    /* bring your own prefixes */
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+
+box-shadow: white 5px 30px 50px;
+
+}
+
+.column{
+
+    flex: 10%;
+
+    background-color:white ;
+
+    border: white solid 2px;
+
+    height: 400px;
+
+    top: 50px;
+
+  position: relative;
+
+}
+
+.column1{
+
+    flex: 10%;
+
+    background-color:green ;
+
+    border: green solid 2px;
+
+    height: 400px;
+
+    top: 50px;
+
+  position: relative;
+
+}
+
+label{
+
+    position: relative;
+
+    left: 21%;
+
+    top: 5%;
+
+}
+
+.form{
+
+width: 230px;
+
+height: 25px;
+
+background-color: lightblue;
+
+border: none;
+
+border-bottom: #2596be solid 2px;
+
+outline: none;
+
+color: white;
+
+border-radius: 10px;
+
+box-shadow: #888888 2px 2px 3px ;
+
+position: relative;
+
+left: 20%;
+
+top: 5%;
+
+}
+
+.submit{
+
+width: 300px;
+
+background: linear-gradient(100deg, #56d8e4 20%, #9f01ea 90%);
+
+border: none;
+
+outline: none;
+
+height: 35px;
+
+border-radius: 10px;
+
+color: white;
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+box-shadow: #888888 2px 2px 3px ;
+
+position: relative;
+
+left: 10%;
+
+top: 5%;
+
+cursor: pointer;
+
+}
+
+.submit :hover,.form{
+
+    background: linear-gradient(100deg,#9f01ea 20%, #56d8e4 80% );
+    
+}
+
+::placeholder{  
+
+color: white;
+
+}

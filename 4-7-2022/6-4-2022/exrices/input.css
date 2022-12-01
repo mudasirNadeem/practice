@@ -1,0 +1,17 @@
+.icon{
+font-size: 15px;
+width: 90%;
+/* min-width: 500px; */
+border: 10px solid red;
+color: red;
+}
+p{
+align-items: stretch;
+
+}
+.box{
+    border: red solid 2px;
+    width: 185px;
+    height: 200px;
+    overflow-y: auto;
+}

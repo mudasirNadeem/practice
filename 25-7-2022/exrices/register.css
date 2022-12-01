@@ -1,0 +1,70 @@
+body{
+background: linear-gradient(450deg,red, yellow,green);
+
+}
+.container{
+width: 400px;
+height: 60vh;
+background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+float: left;
+}
+.text{
+width: 250px;
+height: 30px;    
+border: black solid 1px;
+outline: none;
+}
+a{
+    text-decoration: none;
+}
+.password{
+    width: 250px;
+height: 30px;    
+border: black solid 1px;
+outline: none;
+}
+.forget{
+color: blue;
+text-decoration: none;
+}
+.submit{
+    width: 260px;
+    height: 35px;
+    background: linear-gradient(450deg,red, yellow,green);
+border: none;
+outline: none;
+color: white;
+cursor: pointer;
+}
+form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 450px){
+    .text,.password,label,.submit,.a{
+width: 90%;
+    }
+    .container{
+        width: 90%;
+        height: 60vh;
+    }
+    form{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+    .text,.password{
+border: black solid 2px;
+    }
+}

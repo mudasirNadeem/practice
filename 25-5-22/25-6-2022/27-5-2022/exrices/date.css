@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(90deg, #56d8e4 10%, #9f01ea 90%);
+}
+.sub-box{
+    background: linear-gradient(90deg, #56d8e4 10%, #9f01ea 90%);
+    width: 650px;
+    height: 550px;
+    position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+}
+.contianer{
+width: 550px;
+height: 400px;
+background-color: white;
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+
+}
+.div-box{
+display: flex;
+
+}
+.contianer2{
+    margin-left: 2%;
+}
+h1{
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.form{
+    border: none;
+    border-bottom: gray solid 2px;
+    outline: none;
+ width: 250px;
+ height: 30px;
+ 
+  
+}
+textarea{
+border: none ;
+border-bottom: gray solid 2px;
+outline: none;
+
+}
+form{
+    position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+
+}
+.submit{
+    background: linear-gradient(90deg, #56d8e4 10%, #9f01ea 90%);
+margin-top: 75%;
+width: 130px;
+height: 45px;
+margin-left: 30px;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.submit:hover{
+    background: linear-gradient(410deg,  red 33% , yellow 34% ,green 33%);
+    color: yellow;
+}

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+       font-family: 'Raleway', sans-serif;
+   }
+   
+   .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(adventure-beautiful-daylight-325807.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   
+   .form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: #fff;
+   }
+   
+   .form-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+   }
+   
+   .group {
+    margin-bottom: 10px;
+   }
+   
+   .control {
+    width: 100%;
+    padding: 12px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid silver;
+    border-radius: 0;
+    transition: all 2s;
+   }
+   
+   .control:focus {
+    outline: none;
+    border-bottom-color: blue;
+   }
+   
+   .btn {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #08CCFD, #0379FD);
+    color: #fff;
+    border:0;
+    font-size: 18px;
+    font-weight: 200;
+   }
+   
+   .m20 {
+    margin-top: 20px;
+   }
+   
+   .link {
+    text-decoration: none;
+    color: silver;
+    font-weight: 300;
+   }
+   
+   .heading {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 200;
+   
+   }
+   
+   @media screen and (max-width: 765px){
+    .form {
+    width: 100%;
+   }
+   }
+   
+    LABELS:HTML & CSS 19
+    SHARE:
+   https://www.webtipstricks.com/2018/08/html-css-responsive-cool-form.html
+   RECOMMENDED FOR YOU
+   
+   Create HTML CSS Iphone 7 Mobile Layout With Facebook Login
+   
+   HTML CSS Create iphone Mobile Layout
+    COMMENTSFACEBOOK: 0BLOGGER: 1DISQUS
+   
+   Earn 25$ Signup Payoneer
+   Earn 25$ Signup Payoneer
+   Earn 25$ Signup Payoneer
+   
+    
+   Ajax Advanced Signup Form
+   Ajax Advanced Signup Form
+   Price RS: 9.99$
+   RECENTREPLIESRANDOM
+   
+    
+   MERN Stack Course Along with Project  0
+   React Redux eCommerce Project | Source Code  2
+   Vuex Tutorials Build Project with Vuex  0
+   React JS Responsive Website  1
+   Vue JS 3 Project Let's Build Google Clone  0
+    YEAR POPULAR
+   
+   1
+   React JS Responsive Website
+   React JS Responsive Portfolio Website React JS Responsive Website, in this article we are going to create a responsive website using the Rea...Readmore
+   
+   2
+   Ajax Signup & Login PHP Form
+   Ajax:  Ajax stands for asynchronous javascript and XML, Ajax is a technique which we can use for database and client communicati...Readmore
+   
+    
+   
+   3
+   Display Message in PHP
+   Display Message in PHP:  PHP Session based flash message means a message which will hide after the browser refresh same like CodeIgnit...Readmore
+   
+   4
+   PHP Registration with Email Verification
+   Email Verification:  Normally when we create an account on any website after the account creation they want email verificatio...Readmore
+   
+   5
+   ReactJS Responsive Website
+   ReactJS Responsive Website Reactjs is a front end library for user interfaces, in this today video, we will build a responsive modern lookin...Readmore
+   
+   6
+   PHP MVC Framework with Source Code
+   PHP MVC Framework: PHP MVC Framework, MVC stands for model, view, and controller. MVC is a design pattern which separates our website or...Readmore
+   
+   7
+   React Redux eCommerce Project | Source Code
+    React Redux React is a front-end library for building user interfaces and Redux is a state management library and it's a third-party pa...Readmore
+   
+    
+   
+   8
+   MERN Stack Course Along with Project
+   MERN Stack Mern stands for MongoDB, express, react, and node it's the combination of four languages or frameworks, Mern stack is now wid...Readmore
+   
+   9
+   React JS Let's Build Facebook Clone | Source Code
+   What is React JS?  React JS is a front library and it's created by Facebook, And React JS is one of the most popular libraries in the ma...Readmore
+   
+   10
+   Object Oriented Programming PHP Signup & Login Form
+   What is Object Oriented Programming? object-oriented programming is a paradigm you can also say it's the coding style, object-orien...Readmore
+   © 2022 webtipstricks
+   All rights reserved.
+   Home
+   

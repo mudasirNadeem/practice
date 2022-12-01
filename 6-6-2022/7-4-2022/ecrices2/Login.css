@@ -1,0 +1,72 @@
+body{
+background-color: #e7e7e7;
+}
+.container{
+width: 400px;
+height: 450px;
+border: #6666 solid 2px;
+ background-color: #333333;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+}
+.icon{
+border: white solid 2px;
+border-radius:50%;
+height: 100px;
+
+}
+.user{
+    background-color: black;
+    width: 250px;
+    color: white;
+    border: none white solid 2px;
+    outline: none;
+    height: 25px;
+}
+.password{
+    background-color: black;
+    width: 250px;
+    color: white;
+    border: none white solid 2px;
+    outline: none;
+    height: 25px;
+}
+.register{
+
+margin-left:0px ;
+}
+.remember{
+margin-right: 30px;
+}
+
+
+.submit{
+background-color: #4d8fe2;
+color: white;
+width: 250px;
+height: 30px;
+border: none;
+outline: none;
+cursor: pointer;
+}
+label{
+color: white;
+}
+.output{
+    color: black;
+}
+u{
+color: white;
+}
+form{
+text-align: center;
+
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+}

@@ -1,0 +1,88 @@
+.img-box{
+
+display: flex;
+
+flex-direction: row;
+
+ margin-top: 10px;
+
+ text-align: center;
+
+ justify-items: center;
+
+ position: absolute;
+
+left: 30%;
+
+top: 20%;
+
+
+/* background-color: black; */
+
+width: 200px;
+
+}
+
+.text-box {
+
+    border: none;
+
+    background-color: black;
+
+    border: black solid 2px;
+
+    margin-top: 6px;
+
+    width: 800px;
+
+    
+}
+.password{
+
+    margin-top: 20px;
+
+    border: none;
+
+    border-bottom: green solid 2px;
+
+outline: none;
+}
+.email{
+    margin-top: 20px;
+
+    border: none;
+
+    border-bottom: green solid 2px;
+
+outline: none;
+}
+.text{
+ 
+    margin-top: 10px;
+
+    border: none;
+
+    border-bottom: green solid 2px;
+
+outline: none;
+}
+.submit{
+
+border: green solid 2px;
+
+margin-top: 20px;
+
+width: 100px;
+
+height: 40px;
+
+background-color: black;
+
+color: white;
+}
+h1{
+
+color: red;
+
+margin-top: -5px;
+}

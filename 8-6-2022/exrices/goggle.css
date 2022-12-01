@@ -1,0 +1,27 @@
+body{
+background-color: rgba(175, 175, 175, 0.826);
+}
+.image{
+width: 30px;
+border-radius: 50%;
+cursor: pointer;
+}
+.wrapper{
+    text-align: right;
+}
+a{
+    color:white;
+    margin-right: 10px;
+text-decoration: none;
+}
+.svg{
+    width: 30px;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+abbr:hover{
+background-color: black;
+color: white;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0158)https://sess_02a58f8f-8b7d-4914-8837-d899d9a9d811.w3spaces-preview.com/_/init/iframe-preview.html?spaceId=mudasirmadeem&spacePath=%2Fw3school%2Fanimation.html -->
+<html style="overflow: hidden;"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <script>
+
+    // < utils
+    const _parseJson = (
+      jsonStr,
+      requiredFields,
+    ) => {
+      const output = {
+        error: {
+          code: '0'
+        },
+        data: {},
+      };
+
+      try {
+        output.data = JSON.parse(jsonStr);
+
+        if (typeof requiredFields !== 'undefined') {
+          for (let i = 0; i < requiredFields.length; i++) {
+            const key = requiredFields[i];
+
+            if (
+              typeof output.data[key] === 'undefined'
+            ) {
+              output.error = {
+                code: 'FINPID',
+                description: 'Field is not present in data',
+                meta: {
+                  key: key,
+                }
+              };
+
+              return output;
+            }
+          }
+        }
+      } catch (exc) {
+        output.error = _getMetaPreparedFromException(exc);
+      }
+
+      return output;
+    };
+
+    const _bindEvent = (element, eventName, eventHandler) => {
+      if (element.addEventListener) {
+        element.addEventListener(eventName, eventHandler, false);
+      } else if (element.attachEvent) {
+        element.attachEvent('on' + eventName, eventHandler);
+      }
+    }
+
+    const _unbindEvent = (element, eventName, eventHandler) => {
+      if (element.removeEventListener) {
+        element.removeEventListener(eventName, eventHandler, false);
+      } else if (element.attachEvent) {
+        element.detachEvent('on' + eventName, eventHandler);
+      }
+    }
+
+    const _messageHandler = (event) => {
+      const output = {
+        error: {
+          code: '1',
+          description: 'Invalid request'
+        },
+        type: 'response',
+        action: null,
+        data: null,
+      };
+
+      let validRequest = false;
+
+      if (
+        [
+          'https://spaces.w3schools.com',
+          'https://spaces-stage.w3schools.com',
+          'https://spaces-dev.w3schools.com',
+          // 'https://spaces-local.w3schools.com:3000', // used for testing
+        ].includes(event.origin)
+        && typeof event.data !== 'undefined'
+      ) {
+        _unbindEvent(window, 'message', _messageHandler);
+
+        console.log('_messageHandler -> event: ', JSON.stringify(event));
+
+        const dataParseRes = _parseJson(event.data, [
+          'type', // 'request' | 'response'
+          'action',
+        ]);
+
+        console.log('_messageHandler -> dataParseRes: ', JSON.stringify(dataParseRes));
+
+        if (dataParseRes.error.code === '0') {
+          const data = dataParseRes.data;
+
+          if (data.type === 'request') {
+            if (data.action === 'getScrollPos') {
+              if (
+                typeof data.spaceId !== 'undefined'
+                && data.spaceId
+                && typeof data.spacePath !== 'undefined'
+                && data.spacePath
+              ) {
+                output.error = {
+                  code: '0'
+                };
+
+                output.action = data.action;
+
+                output.data = {
+                  context: `${data.spaceId}${data.spacePath}`,
+                  scrollYPos: sessionStorage.getItem(`spacePreviewSession.scrollYPos.${data.spaceId}${data.spacePath}`)
+                };
+
+                validRequest = true;
+              }
+            }
+          }
+        }
+      }
+
+      console.log('_messageHandler -> validRequest: ', validRequest);
+
+      if (validRequest) {
+        window.parent.postMessage(JSON.stringify(output), '*');
+      }
+    }
+    // > utils
+
+    const _loadSpace = (data) => {
+      const spacePreviewInitUrl = data.spacePreviewInitUrl;
+
+      const scrollYPosSessionStorageKey = data.scrollYPosSessionStorageKey;
+
+      const urlQueryScrollYPos = data.urlQueryScrollYPos;
+
+      document.getElementById('mainIframe').src = spacePreviewInitUrl;
+
+      document.getElementById('mainIframe').addEventListener('load', (event) => {
+        if (document.getElementById('mainIframe').contentWindow.location.href === spacePreviewInitUrl) {
+          // Only scroll if load page is initiated from the editor. This way we don't scroll page when a new page is loaded from clicking something on the page.
+          // Will only track scrolling on the main page loaded from editor, not on paged loaded by clicking on page so back and forward will work.
+
+          let scrollYPos = 0;
+
+          try {
+            const sessionStorageVal = sessionStorage.getItem(scrollYPosSessionStorageKey);
+
+            if (sessionStorageVal !== null) { // favor session value
+              scrollYPos = parseInt(sessionStorageVal);
+            } else { // fallback to url query param if present
+              if (urlQueryScrollYPos !== null) {
+                scrollYPos = parseInt(urlQueryScrollYPos);
+              }
+            }
+          } catch (error) {
+            // noop
+          }
+
+          document.getElementById('mainIframe').contentWindow.scrollTo({ left: 0, top: scrollYPos, behavior: 'instant' });
+
+          event.target.contentWindow.addEventListener('scroll', (scrollEvent) => {
+            try {
+              sessionStorage.setItem(scrollYPosSessionStorageKey, scrollEvent.target.defaultView.scrollY);
+            } catch (error) {
+              // noop
+            }
+          });
+        }
+      });
+    }
+
+    const _main = () => {
+      const hostChunks = window.location.host.split('.');
+
+      const domainNameWithTld = `${hostChunks[1]}.${hostChunks[2]}`;
+
+      const urlQueryStr = window.location.search;
+
+      const urlQueryPrs = new URLSearchParams(urlQueryStr);
+
+      const spacePreviewSessionSubdomain = hostChunks[0];
+
+      const spaceId = urlQueryPrs.get('spaceId');
+
+      let spacePath = urlQueryPrs.get('spacePath');
+
+      if (
+        !spaceId
+        || !spacePreviewSessionSubdomain
+        || spacePreviewSessionSubdomain.indexOf('sess_') !== 0
+      ) {
+        document.getElementById('mainIframe').src = `https://www.${domainNameWithTld}/_/error/bad-request.html?id=M4CW4Y8E76`;
+
+        return;
+      }
+
+      if (spacePath) {
+        spacePath = decodeURIComponent(spacePath);
+      } else {
+        spacePath = '';
+      }
+
+      const spacePreviewInitUrl = `https://${spacePreviewSessionSubdomain}.${domainNameWithTld}${spacePath}`;
+      // const spacePreviewInitUrl = `https://www-local.${domainNameWithTld}/_/error/bad-request.html?id=TEST`; // used for testing
+
+      const scrollYPosSessionStorageKey = `spacePreviewSession.scrollYPos.${spaceId}${spacePath}`;
+
+      _loadSpace({
+        spacePreviewInitUrl: spacePreviewInitUrl,
+        scrollYPosSessionStorageKey: scrollYPosSessionStorageKey,
+        urlQueryScrollYPos: urlQueryPrs.get('scrollYPos'),
+      });
+    };
+
+    _bindEvent(window, 'message', _messageHandler);
+
+    _bindEvent(window, 'load', _main);
+  </script>
+
+</head>
+
+<body style="margin: 0; padding: 0;">
+
+  <iframe id="mainIframe" src="./animation.html" frameborder="0" style="width: 100%; height: 100vh; border: 0;"></iframe>
+
+
+
+</body></html>

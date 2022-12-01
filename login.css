@@ -1,0 +1,76 @@
+body{
+background: #4a1329;
+}
+.container{
+    background-color: #35051a;
+    border: #35051a solid 2px;
+    width: 400px;
+    height: 300px;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+h1{
+    color: white;
+}
+.email{
+border: none;
+outline: none;
+border-bottom: white solid 2px;
+background-color: #35051a ;
+width: 250px;
+height: 25px;
+color: white;
+}
+.password{
+    border: none;
+outline: none;
+border-bottom: white solid 2px;
+background-color: #35051a ;
+width: 250px;
+height: 25px;
+color: white;
+}
+.login{
+width: 250px;
+height: 40px;
+background-color: #b54976;
+border: none;
+outline: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.login:hover{
+    background-color: black;
+    color: white;
+    transition: 3s;}
+.login:focus{
+background-color: white;
+color: black;
+transition: 1ms;
+}
+.password:focus{
+border-bottom: #61283a solid 2px;
+transition: 1s;
+}
+.email:focus{
+    border-bottom: #61283a solid 2px;
+      transition: 1s;
+}
+span{
+    color:#6d364c ;
+    cursor: pointer;
+}
+p{
+    color: white;
+}
+form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}

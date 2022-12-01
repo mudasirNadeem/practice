@@ -1,0 +1,213 @@
+.containter{
+
+    text-align: center;
+
+    justify-items: center;
+
+    border: green solid 2px;
+
+    /* background-color: green; */
+
+height: 650px;  
+
+/* align-items: stretch; */
+
+}
+
+
+.submit{
+
+color: white;
+
+font-size: 20px;
+
+font-weight: 350;
+
+font-family: 300;
+
+display: flex;
+
+flex-direction: row;
+
+padding-left: 50px;
+
+width: 250px;
+
+margin-top: 20px;
+
+
+background: green;
+
+width: 150px;
+
+height: 50px;
+
+display: flex;
+
+flex-direction: row;
+
+margin-left: 36px;
+
+border: none;
+
+outline: none;
+
+cursor: pointer;
+
+}
+
+.sigin{
+
+display: flex;
+
+flex-direction: row;
+
+position: absolute;
+
+left: 190px;
+
+ top: 12px;
+
+width: 160px;
+
+font-size: 20px;
+
+font-weight: 300;
+
+font-family: 300;
+
+height: 50px;
+
+padding-left: 70px ;
+
+border: none;
+
+outline: none;
+
+border-bottom: green solid 2px;
+
+border-width: 3px;
+
+background-color: white;
+
+margin-left: 464px;
+
+margin-top: 96px;
+
+cursor: pointer;
+
+align-items: stretch;
+
+}
+
+.img{
+
+ margin-bottom: 8px;
+
+margin-left: 10px;
+
+margin-right: 23px;
+
+align-items: stretch;
+}
+
+.gimg{
+
+margin-left: 60px;
+
+align-items: stretch;
+
+}
+
+.facebook{
+
+    margin-left: 40px;
+
+    margin-right: 1px;
+
+    align-items: stretch;
+} 
+.email{
+
+border: none;
+
+border-bottom: green solid 2px;
+
+margin-top: 30px;
+
+width: 360px;
+
+outline: none;
+
+margin-right: 81px;
+
+margin-left: 23px;
+
+align-items: stretch;
+
+
+}
+.password{
+
+    border: none;
+
+border-bottom: green solid 2px;
+
+width: 360px;
+
+margin-top: 30px;
+
+outline: none;
+
+margin-right: 81px;
+
+margin-left: 24px;
+
+align-items: stretch;
+}
+@media only  screen and (max-width:300px) and  (min-width:100px){
+    
+}
+.containter2{
+
+width: 400px;
+
+background-color: white;
+
+border: green solid 8px;
+
+height: 480px;
+
+margin-left: 450px;
+
+margin-top: 70px;
+
+align-items: stretch;
+}
+
+.icon{
+
+width: 350px;
+
+height: 30px;
+
+background-color: green;
+
+color: white;
+
+margin-top: 30px;
+
+border: none;
+
+outline: none;
+
+cursor: pointer;
+
+align-items: stretch;
+}
+@media (max-width:200px) and (min-width:0px){
+    .containter{
+width: 100px;
+height: 100px;
+    }
+}

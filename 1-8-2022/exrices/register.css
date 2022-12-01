@@ -1,0 +1,352 @@
+body{
+/* background: url(https://www.boredapepirateclub.com/img/apeisland.png); */
+}
+.main{
+background: url(https://www.boredapepirateclub.com/img/apeisland.png) no-repeat left;
+/* background-color: black; */
+width: 101.15%;
+height: 100ch;
+margin: 0;
+padding: 0;
+background-size: cover;
+margin-left: -8px;
+}
+nav{
+    width: 102%;
+    padding: 0 0 0 80px;
+    background-color: black;
+margin-top: -14px;
+position: fixed;
+z-index: 10000;
+font-family: Source Sans Pro, sans-serif;
+left: -20px;
+height: 125px;
+}
+ul{
+    float: left;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    padding: -20px 0 0 0;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+display: block;
+line-height: 120px;
+padding: 0px 15px;
+position: relative;
+left: 5px;
+font-size: 25px;
+top: -7px;
+}
+
+.img{
+    width: 138px;
+    height: 80px;
+    position: relative;
+    top: 25px;
+    float: left;
+    left: 15px;
+}
+ul li a:hover{
+font-size: 25px;
+color: #ffffa2;
+letter-spacing: 3px;
+transition: 1s;
+}
+ol{
+    float: right;
+display: flex;
+}
+ol li{
+    list-style: none;
+    /* display: inline-block; */
+}
+ol li a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 30px;
+    display: block;
+
+}
+.submit{
+    position: relative;
+    top: -10px;
+    background-color: #4f94cf;
+    right: 160px;
+    color: #ffffa2;
+    font-size: 15px;
+    border-radius: 10px;
+    border: #a5d6ff solid 2px;
+    cursor: pointer;
+    padding: 15px 17px;
+    font-weight: bold;
+
+}
+.submit:hover{
+    border: black solid 2px;
+    background-color: black;
+    /* width:100PX; */
+transition: 1s;
+    color: white;
+    font-size:larger;
+    transform: rotate(-5deg);
+}
+.fa{
+ height: 30px;
+position: relative;
+right: 50px;
+font-size: 100px;
+color: white;
+cursor: pointer;
+}
+.icon:hover{
+    color: black;
+    background-color: black;
+}
+.fa:hover{
+    color: blue;
+}
+.contianer{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.button{
+background-color:cornflowerblue;
+color: #ffffa2;
+width: 200px;
+height: 80px;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 35px;
+border: #a5d6ff solid 2px;
+border-radius: 10px;
+}
+.button:hover{
+    background-color: black;
+    border: none;
+transition: 0.5s;
+transform: rotate(-7deg);
+}
+.wrapper{
+    width: 101.8%;
+    height: 60vh;
+    background: url(https://boredapepirateclub.com/img/black_bg.png);
+    color: white;
+margin-left: -8px;
+}
+.wrapper h3{
+    color:#ffffa2;
+    text-transform: uppercase;
+font-size: 50px;
+margin-right: 270px;
+}
+.five{
+width: 50%;
+height: 50vh;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.five p{
+    font-size: 23px;
+}
+.six{
+    width: 101.10%;
+    height: 110px;
+    background-color: black;
+    position: relative;
+    left: -8px;
+}
+.men{
+    width: 101.10%;
+    height: 90vh;
+    background: url(https://boredapepirateclub.com/img/ship.png);
+
+}
+.bease{
+background: url("data:image/png;base64,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") rgb(255, 254, 240); filter: url("#wavy2"); height: 901px;
+width: 70%;
+height: 60em;
+position: relative;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+
+}
+.bease h3{
+    color: black;
+    font-size: 50px;
+}
+.nft{
+    background: url(https://boredapepirateclub.com/img/table.jpeg);
+    width: 100%;
+    height: 70em;
+}
+.icon-45{
+    margin-right: 80px;
+width: 180px;
+margin-top: -30px;
+}
+.ten{
+ width: 100%;
+ height: 250px;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+}
+.icon-313{
+    position: relative;
+    top: 200px;
+    left: 730px;
+    height: 200px;
+    width: 200px;
+}
+.emty-image{
+    width: 100%;
+    height: 100vh;
+    background: url(https://boredapepirateclub.com/img/desert_island.png);
+}
+.roadmap{
+    width: 100%;
+    height: 150vh;
+}
+.flex{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    border:yellow solid 2px;
+ display: flex;
+}
+.flex-99{
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.flex-58{
+    flex: 50%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.icon-105{
+width: 400px;
+height: 250px;
+}
+.nft-box0{
+    width: 100%;
+    height: 100vh;
+    background: url(https://boredapepirateclub.com/img/bar.png);
+    display: flex;
+}
+.nft-box1{
+ color: white;
+}
+figure{
+    color: white;
+}
+.nft-one{
+    flex: 33.3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icon-122{
+    width: 300px;
+    height: 300px;
+    border: white solid 4px;
+}
+.icon-123{
+    width: 300px;
+    height: 300px;
+    border: white solid 4px;
+    margin-top: 8px;
+
+}
+.icon-124{
+    width: 300px;
+    height: 300px;
+    border: white solid 4px;
+    margin-top: 115px;
+}
+b{
+    font-size: 25px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.nft-two{
+    flex: 33.3%;
+}
+.nft-three{
+    flex: 33.3%;
+}
+.link{
+    width: 100%;
+    height: 310vh;
+    background-color: #fdce62;
+    margin-top: -60px;
+}
+.mouse{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+}
+.link h1{
+    color: black;
+    text-align: center;
+    font-size: 90px;
+    position: relative;
+    top: 80px;
+}
+.mouse p {
+    font-size: 33px;
+    font-style: italic;
+}
+h2{
+    font-size: 40px;
+    font-family: Verdana, Sans-serif;
+
+}
+.address-main{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    position: relative;
+    top: px;
+}
+.address{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+   position: relative;
+   top: 50px;
+}
+a{
+    color: blue;
+}
+address a{
+    color: white;
+
+}
+address a:hover{
+    color: blue;
+}

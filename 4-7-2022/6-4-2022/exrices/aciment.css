@@ -1,0 +1,146 @@
+body{
+
+background-color: #b744ad;
+
+}
+
+.container{
+
+    position: absolute;
+
+    width: 350px;
+
+    height: 400px;
+
+    z-index: 15;
+
+    top: 40%;
+
+    left: 50%;
+
+    margin: -100px 0 0 -150px;
+
+    background: white;
+
+    text-align: center;
+}
+
+h1{
+
+text-align: center;
+
+}
+
+ul{
+
+width: 260px;
+
+height: 40px;
+
+border: #666666 solid 1px;
+display: flex;
+margin-left: 7%;
+border: none;
+border-bottom:  black solid 2px;
+list-style-type: none;
+
+}
+li:focus{
+background-color:white ;
+}
+
+li{
+
+border: none;
+
+outline: none;
+
+background-color:#b744ad ;
+
+cursor: pointer;
+
+border-radius: 5px;
+
+font-size: 30px;
+}
+
+li{
+
+border: none;
+
+outline: none;
+
+width: 150px;
+
+height: 40px;
+
+/* background-color: white; */
+
+font-weight: bold;
+
+cursor: pointer;
+
+color: black;
+
+}
+
+.email{
+
+width: 295px;
+
+height: 30px;
+
+}
+
+.password{
+
+    width: 295px;
+
+    height: 30px;
+    
+}
+li :focus{
+/* background-color:white;
+
+border: #b744ad solid 2px;
+width: 2000px;
+
+height: 40px; */
+}
+h4{
+
+color: #b744ad;
+
+margin-right: 170px;
+
+}
+
+.submit-box input{
+
+    background-color: #b744ad;
+
+    width: 295px;
+
+    height: 40px;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    color: white;
+
+}
+
+span{
+
+color: #b744ad;
+
+}
+
+form{
+
+text-align: center;
+
+}

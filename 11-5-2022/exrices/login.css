@@ -1,0 +1,8 @@
+.input{
+color: green ;
+text-align: justify;
+border: red solid 2px;
+min-width: 1000px;
+/* max-height: 1200px; */
+min-height: 600px;
+}

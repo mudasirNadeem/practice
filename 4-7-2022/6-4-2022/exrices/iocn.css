@@ -1,0 +1,87 @@
+body{
+background-image: url(images.jpg);
+background-repeat: no-repeat;
+background-size: 1350px;
+}
+.container{
+background-color: white;
+width: 700px;
+height: 450px;
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+display: flex;
+text-align: center;
+}
+.icon{
+    height: 410px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.first{
+border: none;
+outline: none;
+border-bottom: black solid 2px;
+width: 150px;
+height: 20px;
+}
+.last{
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    width: 150px;
+    height: 20px;
+    margin-left: 20px;
+}
+.user{
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    width: 333px;
+    margin-top: 15px;
+}
+.email{
+
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    width: 333px;
+    margin-top: 15px;
+}
+.gender{
+
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    width: 333px;
+    margin-top: 15px;
+}
+
+.password{
+
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    width: 333px;
+    margin-top: 15px;
+}
+.confim{
+
+    border: none;
+    outline: none;
+    border-bottom: black solid 2px;
+    width: 333px;
+    margin-top: 15px;
+}
+.register{
+color: white;
+background-color: black;
+width: 150px;
+height: 40px;
+border: none;
+outline: none;
+cursor: pointer;
+
+}

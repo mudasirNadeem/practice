@@ -1,0 +1,212 @@
+body{
+
+background: url(images.jpg);
+
+background-repeat: no-repeat;
+
+background-size: 1350px;
+
+}
+
+.container{
+
+    border: black solid 2px;
+
+    width: 500px;
+
+    height: 420px;
+
+    background-color: black;
+
+    opacity: 0.420;
+
+    position: fixed;
+
+  top: 50%;
+
+  left: 50%;
+
+  /* bring your own prefixes */
+
+  transform: translate(-50%, -50%);
+
+}
+
+.text{
+
+width: 150px;
+
+height: 25px;
+
+background-color: #fffeff;
+
+border: none;
+
+outline: none;
+
+margin-left: 50px;
+
+}
+
+.text1{
+
+    width: 150px;
+
+    height: 25px;
+
+    background-color: #fffeff;
+
+    border: none;
+
+    outline: none;
+
+    margin-left: 30px;
+
+}
+
+.contect{
+
+    color: rgb(255, 253, 250);
+
+    margin-left: 5.80em;
+
+}
+
+.label-box{
+
+    color: #fffeff;
+
+margin-left: 6.80em;
+
+}
+
+.output{
+
+color: #fffeff;
+
+}
+.name{
+
+    color: #fffeff;
+
+}
+.register{
+
+margin-left: 25px;
+
+width: 340px;
+
+height: 25px;
+
+background-color: #fffeff;
+
+border: none;
+
+outline: none;
+
+}
+
+.email{
+
+    margin-left: 45px;
+
+    width: 340px;
+    
+    height: 25px;
+    
+    background-color: #fffeff;
+    
+    border: none;
+    
+    outline: none;
+}
+
+label,.label{
+
+color: white;
+
+}
+
+.phone{
+    width: 120px;
+
+    height: 25px;
+    
+    background-color: #fffeff;
+    
+    border: none;
+    
+    outline: none;
+    
+    margin-left: 50px;
+}
+
+.login{
+
+    width: 175px;
+
+    height: 25px;
+
+    background-color: #fffeff;
+
+    border: none;
+
+    outline: none;
+
+    margin-left: 30px;
+
+}
+.area{
+
+
+    color: rgb(255, 253, 250);
+
+    margin-left: 5.80em;
+
+}
+
+.number{
+
+    color: #fffeff;
+
+margin-left: 5.70em;
+
+}
+select{
+
+    
+margin-left: 50px;
+
+width: 340px;
+
+height: 25px;
+
+background-color: #fffeff;
+
+border: none;
+
+outline: none;
+
+}
+
+p{
+
+color: white;
+
+}
+
+.button{
+
+background-color: green;
+
+width: 200px;
+height: 40px;
+border-radius: 20px;
+border: none;
+outline: none;
+color: white;
+
+}
+form{
+    margin: 30px; 
+}

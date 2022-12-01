@@ -1,0 +1,122 @@
+body{
+
+    background: #3852c0;
+
+    position: fixed;
+
+  top: 50%;
+
+  left: 50%;
+
+  /* bring your own prefixes */
+
+  transform: translate(-50%, -50%);
+
+padding: 10px;
+
+}
+
+.email{
+
+    padding-left: 35px;
+
+background: url(adm.png)
+
+no-repeat left black ;
+
+opacity: 1;
+
+background-color: white;
+
+width: 250px;
+
+height: 30px;
+
+background-size: 30px;
+
+
+border-bottom: brown solid 2px;
+
+border-top: 2px solid #dad2d1;
+
+border-left: 2px solid #dad2d1;
+
+border-right: 2px solid #dad2d1;
+}
+
+.container{
+
+background-color: white;
+
+border:solid black 2px;
+
+height: 400px;
+
+width: 400px;
+
+text-align: center;
+
+}
+.password{
+
+    padding-left: 30px;
+
+background: url(key.png) no-repeat left ;
+
+background-color: white;
+
+width: 250px;
+
+
+height: 30px;
+
+background-size: 25px;
+
+border-bottom: brown solid 2px;
+
+border-top: 2px solid #dad2d1;
+
+border-left: 2px solid #dad2d1;
+
+border-right: 2px solid #dad2d1;
+
+
+}
+
+p{
+color: brown;
+
+margin-top: 5px;
+
+margin-right: 110px;
+}
+
+label{
+color: blue;
+
+cursor: pointer;
+
+margin-right: 170px;
+}
+
+.login{
+width: 300px;
+
+height: 40px;
+
+background-color: blue;
+
+color: white;
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 20px;
+
+cursor: pointer;
+}
+a{
+color: black;
+}
+span{
+color: blue;
+}

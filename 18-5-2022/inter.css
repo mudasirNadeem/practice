@@ -1,0 +1,157 @@
+
+body{
+background: linear-gradient(460deg, blue, rgb(182, 182, 229));
+width: 100%;
+height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    height: 90%;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.email{
+width: 250px;
+height: 25px;
+/* border: none; */
+outline: none;
+}
+.password{
+width: 250px;
+height: 25px;
+/* border: none; */
+outline: none;
+}
+.name{
+width: 250px;
+height: 25px;
+/* border: none; */
+outline: none;
+}
+.container1{
+    display: flex;
+    
+}
+.Try{
+    width: 250px;
+height: 25px;
+/* border: none; */
+outline: none;
+margin-left: 20px;
+}
+.Confrom{
+    width: 250px;
+    height: 25px;
+    /* border: none; */
+    outline: none;
+    margin-left: 20px;
+}
+.Last{
+    width: 250px;
+    height: 25px;
+    /* border: none; */
+    outline: none;
+    margin-left: 20px;
+}
+.label ,.label1 ,.label2 ,.label4{
+    margin-left: 20px;
+
+}
+.submit{
+    width: 540px;
+    height: 40px;
+    background: linear-gradient(460deg, blue, rgb(182, 182, 229));
+border: none;
+outline: none;
+cursor: pointer;
+
+}
+.submit:hover{
+    background: linear-gradient(460deg,rgb(182, 182, 229), blue );
+    
+}
+body:hover{
+    background: linear-gradient(460deg,rgb(182, 182, 229), blue );
+}
+#ae{
+margin-left: 100px;
+}
+#ed{
+    margin-left: 100px;
+}
+form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
+
+@media screen and (max-width:1200px) and (min-width:551px){
+    .email,.password,.name,.Try,.Confrom,.Last {
+width: 200px;
+    }
+    .container{
+        width: 600px;
+    }
+.submit{
+width: 450px;
+}
+}
+@media screen and (max-width:550px) {
+    .email,.password,.name,.Try,.Confrom,.Last ,label,.submit,.container1 ,h2{
+display: block;
+margin: 0px;
+align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ 
+ 
+    }
+    .password,.Confrom{
+z-index: 10;
+    }
+input{
+    border: black solid 1px;
+}
+    .one,.amil,.label3,.label1,.label2,.label4{
+        display: block;
+    }
+    .container{
+width: 100%;
+height: 100vh;
+
+    }
+form{
+
+  overflow:auto;
+    height: 100vh;
+    width: 100%;
+}
+.submit{
+    width: 100%;
+}
+.Male{
+    display: inline-block;
+}
+.label1 ,.label2,.label4{
+    margin: 0px;
+}
+}
+@media screen and  (max-width:270px){
+    .email,.password,.name,.Try,.Confrom,.Last {
+        width: 100%;
+    
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    
+}

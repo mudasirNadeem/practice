@@ -1,0 +1,359 @@
+body{
+
+background-color: black;
+
+}
+
+.containter{
+
+background-color: #1a2930
+;
+border: black solid 2px;
+
+width: 1300px;
+
+height: 800px;
+
+position: fixed;
+
+  top: 50%;
+
+  left: 50%;
+
+  /* bring your own prefixes */
+
+  transform: translate(-50%, -50%);
+
+}
+
+.containter2{
+  
+background-color: #7ecdec;
+
+border: yellow solid 3px;
+
+width: 1000px;
+
+height: 600px;
+
+position: fixed;
+
+  top: 50%;
+
+  left: 50%;
+
+  /* bring your own prefixes */
+
+  transform: translate(-50%, -50%);
+}
+.containter3{
+
+background-color: #1a292e;
+
+width: 400px;
+
+
+height: 400px;
+
+/* border: red solid 2px; */
+
+position: fixed;
+
+  top: 50%;
+
+  left: 30%;
+
+  /* bring your own prefixes */
+
+  transform: translate(-50%, -50%);
+
+}
+
+.containter4{
+
+    background-color: #1a292e;
+
+    width: 400px;
+    
+    height: 400px;
+    
+    /* border: red solid 2px; */
+
+
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 72%; 
+
+    /* bring your own prefixes */
+
+    transform: translate(-50%, -50%);
+  
+
+    
+}
+
+.main-box{
+
+/* display: flex;
+ */
+
+}
+
+.name{
+
+border: none;
+
+outline: none;
+
+border-bottom: white solid 2px;
+
+width: 300px;
+
+height: 30px;
+
+background-color: #1a292e;
+
+margin-left: 40px;
+
+color: white;
+
+margin-top: 20px;
+
+}
+
+.email{
+
+  border: none;
+
+  outline: none;
+
+  border-bottom: white solid 2px;
+  
+  width: 300px;
+  
+  height: 30px;
+  
+  background-color: #1a292e;
+  
+  margin-left: 40px;
+
+  
+
+  color: white;
+}
+
+.phone{
+
+  border: none;
+
+  outline: none;
+
+  border-bottom: white solid 2px;
+  
+  width: 300px;
+  
+  height: 30px;
+  
+  background-color: #1a292e;
+  
+  margin-left: 40px;
+
+  
+
+  color: white;
+
+}
+
+.subject{
+
+  border: none;
+
+  outline: none;
+
+  border-bottom: white solid 2px;
+  
+  width: 300px;
+  
+  height: 30px;
+  
+  background-color: #1a292e;
+  
+  margin-left: 40px;
+
+  color: white;
+}
+
+.massage{
+
+  border: none;
+
+  outline: none;
+
+  border-bottom: white solid 2px;
+  
+  width: 300px;
+  
+  height: 60px;
+  
+  background-color: #1a292e;
+  
+  margin-left: 40px;
+
+  color: white;
+
+  border: none;
+
+  outline: none;
+
+  border-bottom: white solid 2px;
+
+margin-top: 20px;
+
+}
+
+.send{
+
+width: 300px;
+
+height: 40px;
+
+background-color: #2596be;
+
+border: none;
+
+outline: none;
+
+margin-left: 40px;
+
+}
+
+.text{
+
+border: none;
+
+outline: none;
+
+width: 200px;
+
+height: 30px;
+
+background-color: #1a292e;
+
+border-bottom: white solid 2px;
+
+color: white;
+
+margin-left: 10px;
+
+
+
+}
+
+.input{
+
+  border: none;
+
+  outline: none;
+  
+  width: 200px;
+  
+  height: 30px;
+  
+  background-color: #1a292e;
+  
+  border-bottom: white solid 2px;
+  
+  color: white;
+  
+  margin-left: 10px;
+
+  
+
+}
+
+.icon{
+  border: none;
+
+  outline: none;
+  
+  width: 200px;
+  
+  height: 30px;
+  
+  background-color: #1a292e;
+  
+  border-bottom: white solid 2px;
+  
+  color: white;
+  
+  margin-left: 10px;
+  
+}
+.subject1{
+  border: none;
+
+  outline: none;
+  
+  width: 200px;
+  
+  height: 30px;
+  
+  background-color: #1a292e;
+  
+  border-bottom: white solid 2px;
+  
+  color: white;
+  
+  margin-left: 10px;
+  
+}
+
+.input1{
+
+/* display: flex; */
+
+/* flex-direction: row;11111111 */
+
+}
+
+.output{
+
+border: none;
+
+outline: none;
+
+border-bottom: white solid 2px;
+
+background-color: red;
+
+height: 280px;
+
+max-height: 280px;
+}
+.column{
+  flex: 40.33%;
+   
+    padding: 10px;
+    
+    background-color: #14161b;
+
+    /* text-align: center; */
+}
+.column2{
+  flex: 60.33%;
+    
+  background-color: #132529;
+
+text-align: center;
+
+padding-top: 20px;
+
+display: flex;
+
+flex-direction: column;
+
+
+}

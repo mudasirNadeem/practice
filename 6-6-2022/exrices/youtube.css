@@ -1,0 +1,45 @@
+ .hero{
+width: 100%;
+height: 100px;
+display: flex;
+text-align: left;
+justify-content: left;
+} 
+.home{
+width: 60px;
+margin-left: -6px;
+}
+.icon {
+width: 50px;
+cursor: pointer;
+margin-left: 0px;
+}
+.shorts{
+width: 50px;
+margin-left: 3.50px;
+}
+.sub{
+width: 60px;
+margin-left:2px;
+}
+.sup{
+    width: 50px;
+cursor: pointer;
+margin-left: 2px;
+}
+.sub:active{
+    background-color: black;
+}
+
+select{
+    width: 300px;
+}
+.put{
+width: 50px;
+}
+.selecter{
+    width: 350px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    background-color: black;
+}

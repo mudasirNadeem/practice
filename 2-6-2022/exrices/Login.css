@@ -1,0 +1,49 @@
+.main-container{
+    background-color: black;
+    width: 30%;
+    height: 400px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contianer,input{
+display: flex;
+width: 160px;
+height: 30px;
+border: none;
+outline: none;
+
+
+}
+.another-div{
+     margin: auto;
+     margin-left: 30px;
+align-items: center;
+justify-content: center;
+}
+.sub-div{
+margin-left: 25px;
+}
+label{
+margin-right: 90px;
+}
+.subject{
+width: 355px;
+margin: auto;
+}
+textarea{
+    /* resize: none; */
+    border: none;
+    outline: none;
+}
+.sub{
+    margin-right: 310px;
+}
+@media screen and (min-width: 481px) {
+  .two-columns {
+    grid-template-columns: 48.7804878% 48.7804878%;
+    grid-column-gap: 2.43902439%; 

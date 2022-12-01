@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #f7f7f7;
+width: 100%;
+
+}
+a[href="Clint.html"]{
+  background-color: #cccccc;
+  color: white;
+  width: 40px;
+  height: 35px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.container{
+  clear:both;
+  overflow:auto;
+box-shadow: 0 0 10px  #c4bab4;
+height: 80px;
+}
+
+nav{float:right;
+    border-left: solid 2px #c4bab4;
+margin-top: 10px;
+}
+.logo img{
+    float:left;
+    margin: 20px;
+    margin-top: 15px;
+    width: 50px;
+    display: table;
+    vertical-align: middle;
+}
+a {
+ position: relative;
+ top: 35px;
+ text-decoration: none;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+  color: #c4bab4;
+  
+} 
+.wrapping{
+    display: grid;
+    grid-template-columns: auto auto  ;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    justify-content: center;
+    
+}
+.card{
+    background-color: white;
+    box-shadow: 0 0 50px #f4f4f4;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+.card h3{
+  color:  #4d4d4d;
+ font-weight: 300;
+}
+.card:hover .cls-1{
+  fill: #2697aa;
+  transition: .25s;
+}
+.card .cls-1{
+fill: #787e81;
+}
+@media screen and (max-width:820px){
+    .wrapping{
+      display: flex;
+    grid-template-columns: auto auto  ;
+    flex-wrap: wrap;
+    }
+    .m-top{
+        margin-top:10px ;
+    }
+  }
+  @media screen and (max-width:497px){
+ .wrapping{
+    margin-top: 50%;
+
+ }
+  }
+

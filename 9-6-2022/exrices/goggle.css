@@ -1,0 +1,118 @@
+body{
+background-color: rgba(175, 175, 175, 0.826);
+background: url(back.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.image{
+width: 30px;
+border-radius: 50%;
+cursor: pointer;
+}
+.wrapper{
+    text-align: right;
+
+}
+a{
+    color:red;
+    margin-right: 30px;
+text-decoration: none;
+
+}
+.svg{
+    width: 20px;
+    cursor: pointer;
+margin-right: 30px;
+/* margin-top: 10px; */
+}
+.svg:hover{
+background-color: rgb(158, 152, 152);
+}
+a:hover{
+    text-decoration: underline;
+
+}
+abbr {
+    padding:5x 10px;
+}
+
+abbr:hover:before {
+   content: attr(title);
+   position:fixed;
+    background:rgb(184, 171, 171);
+    color:#fff;
+    padding:3px 5px;
+    width: 80px;
+    margin:35px 0 40px -30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    /* background-color: yellow; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.register{
+width: 500px;
+height: 40px;
+border: none;
+outline: none;
+padding-left: 10px;
+border-radius: 30px;
+}
+h1{
+color: white;
+font-size: 80px;
+text-align: center;
+}
+.png{
+    width: 105px;
+    margin-left: 20px;
+    margin-left: 10px;
+}
+.png1{
+width: 105px;
+margin-top: -10px;
+height: 100px;
+margin-left: 10px;
+}
+.png2{
+    width: 105px;
+margin-top: -10px;
+margin-left: 10px;
+}
+.png3{
+    width: 105px;
+    height: 100px;
+margin-top: -10px;
+margin-left: 10px;
+}
+.png0{
+    width: 95px;
+margin-top: -10px;
+margin-left: 10px;
+}
+.icon1{
+width: 95px;
+margin-left: 20px;
+}
+.icon{
+    margin-left: 10px;
+    width: 95px;
+    height: 110px;
+}
+.icon2{
+    margin-left: 10px;
+    width: 100px;
+    height: 112px;
+}
+.icon3{
+    margin-left: 10px;
+    width: 100px;
+    height: 112px;
+}

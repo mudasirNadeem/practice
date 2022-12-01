@@ -1,0 +1,199 @@
+body{
+    height:100%;
+
+     position:relative; 
+
+background-color: #101010;
+
+/* background: liner; */
+}
+.containter{
+
+    background-color: #191a20;
+     display: flex;
+
+     
+height: 450px;
+
+width: 700px;
+
+font-family: arial;
+
+margin:auto;
+
+position:fixed;
+
+top:0;
+
+bottom:0;
+
+left:0;
+
+right:0;
+
+
+
+ /* outline: solid 2px black */
+ ;
+}
+.column {
+    flex: 40.33%;
+   
+    padding: 10px;
+    
+    background-color: #14161b;
+
+    text-align: center;
+
+/* border: black solid 2px;    */
+
+padding-top: 80px;
+  }
+  .icon{
+    padding-top: 80px;
+
+   width: 150px;
+
+   height: 150px;
+}
+
+   .date{
+
+    color: white;
+    
+    font-size: 20px;
+    
+   
+    
+    font-family: 30px;
+    
+    font-weight: 60px;
+  }
+
+.label2{
+
+    color: white;
+
+    font-size: 20px;
+    
+    padding-top: 30px;
+    
+    font-family: 30px;
+    
+    font-weight: 60px;
+}
+
+
+ .column2{
+
+    flex: 60.33%;
+    
+    background-color: #132529;
+
+text-align: center;
+
+padding-top: 20px;
+
+
+}
+h4{
+
+color: white;
+
+font-size: 20px;
+}
+
+
+
+.text{
+
+border:none;
+
+border-bottom: #2596be solid 2px;
+
+outline: none;
+
+background-color: #303d3d;
+
+height: 30px;
+
+width:300px;
+
+color: white;
+}
+.password{
+
+    border:none;
+
+    border-bottom: #2596be solid 2px;
+    
+    outline: none;
+    
+    background-color: #303d3d;
+    
+    height: 30px;
+    
+    width:300px;
+
+    margin-top: 30px;
+
+    color: white;
+}
+.email{
+
+    border:none;
+
+    border-bottom: #2596be solid 2px;
+    
+    outline: none;
+    
+    background-color: #303d3d;
+    
+    height: 30px;
+    
+    width:300px;
+
+    margin-top: 30px;
+
+    color: white;
+}
+.submit{
+background-color:#303d3d ;
+
+width: 100px;
+
+height: 40px;
+
+border: none;
+
+border: #0ab4b4 solid 2px;
+
+outline: none;
+
+color: white;
+
+font-size: 15px;
+
+margin-top: 20px;
+
+cursor: pointer;
+}
+.submit:hover{
+
+background-color:#303d3d ;
+
+width: 150px;
+
+transition: 5s;
+}
+.column2:hover{
+    height: 500px;
+    width: 700px;
+
+}
+@media screen and (max-width:660px){
+    .text,.password,.email,.submit{
+width: 150px;
+    }
+    
+}

@@ -1,0 +1,30 @@
+.container1{
+
+background-image: url(download.jpg);
+background-repeat: no-repeat;
+/* background-position: top right; */
+/* background-attachment: fixed; */
+transform: rotate(720deg);
+transition: 5s
+
+}
+.text {
+    width: 250px;
+    height: 30px;
+    background-color:blueviolet;
+    color: white;
+
+}
+::placeholder{
+    color: red;
+}
+.text:hover {
+/* transform: rotate(660deg); */
+transition: 3s;
+/* transform: skew(80deg); */
+/* transform: scale(2); */
+/* transform: translatey(233px); */
+transform: translate(123px,123px);
+/* transition: 5s; */
+
+}

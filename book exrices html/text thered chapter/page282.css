@@ -1,0 +1,9 @@
+.credits{
+text-decoration: line-through;
+}
+h2{
+text-decoration: overline;
+}
+h3{
+text-decoration: underline;
+}

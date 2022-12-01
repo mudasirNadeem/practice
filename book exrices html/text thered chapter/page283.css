@@ -1,0 +1,18 @@
+h2{
+
+line-height: 120px;
+
+}
+
+.breed:active{
+
+color: yellow;
+
+
+}
+
+.breed:visited{
+
+color: rgb(255, 0, 0);
+
+}

@@ -1,0 +1,61 @@
+body{
+background: -webkit-linear-gradient( left,#340d5f ,#e12e5d);
+}
+.container{
+    background-color: #ecc22b;
+    width: 800px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.user{
+
+width: 300px;
+height: 40px;
+background-color: white;
+border: none ;
+outline: none;
+}
+h1{
+color: white;
+font-size: 50px;
+
+}
+label{
+    color: white;
+    font-weight: bold;
+    margin-right: 230px;
+}
+.password{
+
+
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border: none ;
+    outline: none;
+
+}
+.login{
+background-color: white;
+border-radius: 30px;
+width: 100px;
+height: 40px;
+border: none;
+outline: none;
+}
+p{
+color: white;
+margin-right: 240px;
+}
+u{
+color: #e12e5d;
+cursor: pointer;
+margin-right: 130px;
+}
+form{
+text-align: center;
+}

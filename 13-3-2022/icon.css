@@ -1,0 +1,38 @@
+.icon{
+    padding-left: 30px;
+background: url(facebook.png)
+no-repeat left;
+
+background-size: 30px;
+width: 190px;
+height: 30px;
+background-position: red;}
+
+
+.password{
+    padding-left: 30px;
+background: url(logel.png)
+no-repeat left;
+background-size: 30px;
+width: 190px;
+height: 30px;
+
+}
+.contant{
+background-color: green;
+width: 350px;
+height: 130px;
+text-align: center;
+font-size: 50px;
+
+
+}
+.login{
+background-color: green;
+font-size: 50px;
+height: 90px;
+color: white;
+}
+.containter{
+    
+}

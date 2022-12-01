@@ -1,0 +1,177 @@
+body{
+    background-color: #ebeef3;
+    width: 97%;
+    height: 100vh;
+    overflow: auto;
+}
+ nav ul{
+display: flex;
+border-bottom: rgb(185, 167, 167) solid 1px;
+background-color: white;
+width: 100%;
+height: 30px;
+margin: 0;
+padding: 10px 0 0 0 ;
+margin-bottom: auto;
+}
+ nav ul li{
+    list-style: none;
+    cursor: pointer;
+
+}
+ nav ul li a{
+    text-decoration: none;
+    padding: 0 30px;
+}
+ nav ul li:hover{
+    border-bottom: blue solid 2px;
+}
+
+.one{
+    width: 100%;
+    background-color: white;
+height: 40px;
+align-items: center;
+display: flex;
+
+}
+
+.two{
+    width: 30px;
+    border: rgb(95, 86, 86) solid 1px;
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 30px;
+  background-color: white;
+  position: relative;
+left: 10px;
+cursor: pointer;
+}
+.three{
+    width: 30px;
+    border: rgb(95, 86, 86) solid 1px;
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 30px;
+  background-color: white; 
+  position: relative;
+  left: 30px;
+cursor: pointer;
+
+}
+.container{
+    width: 97%;
+    height:30%;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.div1{
+    position: relative;
+    left: 20px;
+}
+.code{
+    position: relative;
+    top: 9px;
+
+}
+.text{
+    position: relative;
+    left: 60px;
+    width: 80%;
+    height: 25px;
+background-color:#ebeef3 ;
+border: none;
+outline: none;
+
+}
+.text1{
+    position: relative;
+    left: 47px;
+    width: 80%;
+    height: 25px;
+background-color:#ebeef3 ;
+border: none;
+outline: none;
+}
+.radio{
+
+   position: relative;
+   left: 45px;
+}
+textarea{
+    position: relative;
+    left: 100px;
+    background-color: #ebeef3;
+    outline: none;
+    width: 80%;
+    height: 15vh;
+}
+.wrapper{
+    width: 97%;
+    height: 50vh;
+    background-color: white;
+    position: relative;
+    top: 20px;
+   left: 15px;
+}
+.input1{
+position: relative;
+left: 30px;
+background-color: #ebeef3;
+border: none;
+outline: none;
+width: 80%;
+height: 25px;
+}
+.input1{
+position: relative;
+left: 30px;
+background-color: #ebeef3;
+border: none;
+outline: none;
+width: 80%;
+height: 25px;
+}
+.input1{
+position: relative;
+left: 30px;
+background-color: #ebeef3;
+border: none;
+outline: none;
+width: 80%;
+height: 25px;
+}
+.input2{
+position: relative;
+left: 30px;
+background-color: #ebeef3;
+border: none;
+outline: none;
+width: 80%;
+height: 25px;
+}
+.input3{
+position: relative;
+left: 30px;
+background-color: #ebeef3;
+border: none;
+outline: none;
+width: 80%;
+height: 25px;
+}
+.input4{
+position: relative;
+left: 30px;
+background-color: #ebeef3;
+border: none;
+outline: none;
+width: 80%;
+height: 25px;
+}
+

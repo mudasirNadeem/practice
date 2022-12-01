@@ -1,0 +1,173 @@
+body{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    
+}
+.main-container{
+    min-width: 100px;
+    max-width: 400px;
+  
+}
+.container{
+border: black solid 2px;
+width: 400px;
+height: 400px;
+background-color: white;
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.icon{
+    border: none;
+border-bottom: black solid 2px;
+outline: none;
+width: 300px;
+height: 30px;
+
+}
+.icon:focus{
+
+border: none;
+
+border-bottom: green solid 2px;
+
+outline: none;
+background: url(register.gif)
+no-repeat right;
+background-size: 30px;
+}
+.icon2{
+    border: none;
+border-bottom: black solid 2px;
+outline: none;
+width: 300px;
+height: 30px;
+
+}
+.icon2:focus{
+
+border: none;
+
+border-bottom: green solid 2px;
+
+outline: none;
+background: url(register.gif)
+no-repeat right;
+background-size: 30px;
+}
+.icon3{
+    border: none;
+border-bottom: black solid 2px;
+outline: none;
+width: 300px;
+height: 30px;
+
+}
+.icon3:focus{
+
+border: none;
+
+border-bottom: green solid 2px;
+
+outline: none;
+background: url(register.gif)
+no-repeat right;
+background-size: 30px;
+}
+.icon1{
+    border: none;
+border-bottom: black solid 2px;
+outline: none;
+width: 300px;
+height: 30px;
+
+}
+.icon1:focus{
+
+border: none;
+
+border-bottom: green solid 2px;
+
+outline: none;
+background: url(register.gif)
+no-repeat right;
+background-size: 30px;
+}
+.icon3{
+    border: none;
+border-bottom: black solid 2px;
+outline: none;
+width: 300px;
+height: 30px;
+
+}
+.icon3:focus{
+
+border: none;
+
+border-bottom: green solid 2px;
+
+outline: none;
+background: url(register.gif)
+no-repeat right;
+background-size: 30px;
+}
+.label{
+    position: fixed;
+    bottom: 300px;
+    height: 2px;
+    width: 100%;
+}
+.icon:focus ~ .label{
+    transform: translatey(-30px);
+    color: blue;
+ font-size: 20px;
+} 
+.label1{
+    position: fixed;
+    bottom: 233px;
+    height: 2px;
+    width: 100%;
+}
+.icon1:focus ~ .label1{
+    transform: translatey(-30px);
+    color: blue;
+ font-size: 20px;
+} 
+.label2{
+    position: fixed;
+    bottom: 163px;
+    height: 2px;
+    width: 100%;
+}
+.icon2:focus ~ .label2{
+    transform: translatey(-30px);
+    color: blue;
+ font-size: 20px;
+} 
+.label3{
+    position: fixed;
+    bottom: 110px;
+    height: 2px;
+    width: 100%;
+}
+.icon3:focus ~ .label3{
+    transform: translatey(-30px);
+    color: blue;
+ font-size: 20px;
+} 
+@media only screen and (max-width: 1000px) and (min-width:600px){
+    body {
+        background: linear-gradient(350deg, yellow 10%, #9f01ea 90%);
+    }
+  }
+@media only screen and (max-width: 500px) and (min-width:300px){
+    body {
+        background: linear-gradient(350deg, red 10%, #9f01ea 90%);
+    }
+  }
